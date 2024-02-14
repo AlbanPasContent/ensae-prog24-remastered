@@ -1,4 +1,13 @@
-class Solver():
+"""
+This is the solver module. It contains the Solver class and its associated
+methods.
+"""
+
+
+from grid import Grid
+
+
+class Solver(Grid):
     """
     A solver class, to be implemented.
     """
@@ -11,5 +20,5 @@ class Solver():
         # TODO: implement this function
         # NOTE: remove the line "raise NotImplementedError".
         # NOTE: you can add other methods and subclasses as much as necessary.
-        # NOTE : The only thing imposed is the format of the solution returned.
+        # NOTE: The only thing imposed is the format of the solution returned.
         raise NotImplementedError

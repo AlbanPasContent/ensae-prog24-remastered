@@ -1,6 +1,6 @@
 from grid import Grid
 
-g = Grid(2, 3)
+g = Grid.create_sorted(2, 3)
 print(g)
 
 data_path = "../input/"
